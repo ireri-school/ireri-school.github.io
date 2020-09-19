@@ -33,16 +33,19 @@ hr {
     color: rgb(58, 58, 58);
     width: 100%;
 }
+ul li a {
+    color: blue;
+}
 footer {
     background-color: rgb(42, 78, 102);
     color: white;
-    padding: .5em;
+    margin: .5em;
     border-radius: .3em;
 }
-a .byui-link:link {
+a {
     color: white;
 }
-a .byui-link:visited {
+a:visited {
     color:rgb(176, 248, 158)
 }
 a:hover {
