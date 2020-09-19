@@ -42,7 +42,7 @@ footer {
     margin: .5em;
     border-radius: .3em;
 }
-a {
+a.byui-link {
     color: white;
 }
 a:visited {
