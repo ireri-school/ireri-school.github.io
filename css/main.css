@@ -1,51 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@300;700&display=swap');
+
 body {
     background-color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'BenchNine', Arial, sans-serif;
     color: black;
+    font-size: 1.3em;
+    max-width: 75%;
+    margin: 0 auto;
+}
+header {
+    background-color: rgb(42, 78, 102);
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    border-radius: .3em;
+}
+.top-heading {
+    margin: 0;
+    text-align: center;
+}
+.portrait {
+    float: right;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 1;
+}
+main {
+    margin: 1.5em;
+    padding: .3em;
+}
+hr {
+    height: .8px;
+    color: rgb(58, 58, 58);
+    width: 100%;
+}
+footer {
+    background-color: rgb(42, 78, 102);
+    color: white;
+    padding: .5em;
+    border-radius: .3em;
+}
+a .byui-link:link {
+    color: white;
+}
+a .byui-link:visited {
+    color:rgb(176, 248, 158)
+}
+a:hover {
+    color:plum;
+}
+.last-update, #last-modified {
+    color: rgb(251, 253, 125);
     font-size: 1em;
-    max-width: 100%;
-  }
-  header {
-      background-color: rgb(42, 78, 102);
-      color: white;
-      font-weight: bold;
-      font-size: 1.5em;
-      border-radius: .3em;
-  }
-  h1 {
-      padding: 1em;
-  }
-  .portrait {
-      float: right;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-      z-index: 1;
-  }
-  main {
-      margin-top: 2em;
-      margin-bottom: 2em;
-      padding: .3em;
-  }
-  hr {
-      height: .8px;
-      color: rgb(58, 58, 58);
-      width: 100%;
-  }
-  footer {
-      background-color: rgb(42, 78, 102);
-      color: white;
-      padding: .5em;
-      border-radius: .3em;
-  }
-  a.byui-link:link {
-      color: white;
-  }
-  a.byui-link:visited {
-      color:rgb(176, 248, 158)
-  }
-  a:hover {
-      color:plum;
-  }
-  .last-update, #last-modified {
-      color: rgb(251, 253, 125);
-      font-size: .8em;
-  }
+}
