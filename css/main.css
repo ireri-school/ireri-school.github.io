@@ -24,7 +24,7 @@ header {
     float: right;
     margin-top: 1em;
     margin-right: 1em;
-    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.21), 0 8px 22px 0 rgba(0, 0, 0, 0.20);
+    box-shadow: 10px rgba(0, 0, 0, 0.21), 20px rgba(0, 0, 0, 0.20);
     height: 200px;
 }
 main {
