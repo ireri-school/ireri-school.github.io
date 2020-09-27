@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Elsie:wght@900&family=Nunito&display=swap');
+
+/* Smaller screens - example: smart phones */
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Elsie', cursive;
+}
+
+header {
+    background-color: rgb(42, 78, 102);
+    color: white;
+}
+
+/* Medium screens - example: tablets */
+@media only screen and (min-width: 45em) {
+    main {
+        display: grid;
+        /* grid-gap:;
+        max-width:;
+        grid-template-columns:;
+        grid-template-rows:;
+        grid-template-areas:; 
+        */
+    }
+}
+
+/* Larger screens - example: computer monitor/laptop */
+@media only screen and (min-width: 60em) {
+    main {
+        display: grid;
+        /* grid-gap:;
+        max-width:;
+        grid-template-columns:;
+        grid-template-rows:;
+        grid-template-areas:; 
+        */
+    }
+}
