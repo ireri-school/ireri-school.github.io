@@ -27,15 +27,16 @@ header {
     padding: 2px;
 }
 
+main {
+    display: grid;
+    grid-gap: 1.6em;
+    padding: 1.6em;
+}
+
 section {
-    /*border: solid 1px;*/
     box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.5);
     border-radius: 4px;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    padding-bottom: 3px;
 }
 
 h3 {
@@ -96,72 +97,39 @@ a:hover {
 /* Medium screens - example: tablets */
 @media only screen and (min-width: 40em) {
     main {
-        display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto;
         grid-template-areas: 
-        "prin1"
         "prin2"
         "prin3";
-    }
-
-    .prin1 {
-        grid-area: prin1;
-        grid-column: 1;
-        grid-row: 1;
-        width: 90%;
-        margin-bottom: 0;
     }
 
     .prin2 {
         grid-area: prin2;
         grid-column: 2;
         grid-row: 1;
-        width: 90%;
-        margin-bottom: 0;
     }
 
     .prin3 {
         grid-area: prin3;
         grid-column: 1 / 3;
         grid-row: 2;
-        width: 95%;
     }
 }
 
 /* Larger screens - example: computer monitor/laptop */
 @media only screen and (min-width: 60em) {
     main {
-        display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-areas: 
-        "prin1"
-        "prin2"
-        "prin3"; 
-    }
-
-    .prin1 {
-        grid-area: prin1;
-        grid-column: 1;
-        grid-row: 1;
-        width: 91%;
-        margin-right: .5rem;
-        margin-bottom: 1em;
+        padding-bottom: 0;
     }
 
     .prin2 {
-        grid-area: prin2;
         grid-column: 2;
         grid-row: 1;
-        width: 91%;
-        margin-bottom: 1em;
     }
 
     .prin3 {
-        grid-area: prin3;
         grid-column: 3;
         grid-row: 1;
-        width: 91%;
-        margin-left: .5rem;
     }
 }
