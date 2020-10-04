@@ -71,13 +71,68 @@ nav a:visited {
     color: white;
 }
 
-nav a:hover {
+.active, .active:visited {
+    color: var(--main-blue);
+}
+
+nav a:hover, .active:hover {
 	background-color: var(--accent-color);
 	color: var(--secondary-blue);
 }
 
 section {
     padding: 1em;
+}
+
+.personas {
+    background-color: var(--accent-color);
+    box-shadow: 0 2px 15px gray;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 85%;
+}
+
+table {
+    display: flex;
+    flex-flow: wrap;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+th, td {
+    padding: 0.5rem;
+    text-align: center;
+    width: 10rem;
+}
+
+.mc {
+    background-color: var(--main-blue);
+}
+
+.sc {
+    background-color: var(--secondary-blue);
+    color: white;
+}
+
+.ac {
+    background-color: var(--accent-color);
+}
+
+.sample-fonts h1 {
+    background-color: var(--main-blue);
+    color: black;
+}
+
+.nav-links, .nav-links:visited {
+    background-color: var(--secondary-blue);
+    color: white;
+}
+
+.nav-links:hover {
+    background-color: var(--accent-color);
+    color: var(--secondary-blue);
 }
 
 footer {
@@ -108,5 +163,9 @@ footer p {
 
 	nav ul li {
         flex: 1 1 100%;
+    }
+
+    td, th {
+        width: 16rem;
     }
 }
