@@ -13,3 +13,9 @@ let today = String(dayOfWeek) + ", " + dayOfMonth + " " + month + " " + year;
 document.getElementsByClassName("today")[0].innerHTML = today;
 
 //function for toggling the menu
+const hamButton = document.querySelector(".toggle");
+const mainNav = document.querySelector(".navigation");
+
+hamButton.addEventListener("click",() => {mainNav.classList.toggle("responsive")}, false);
+
+window.onresize = () => {if (window.innerWidth > 760) mainNav.classList.remove("responsive")};

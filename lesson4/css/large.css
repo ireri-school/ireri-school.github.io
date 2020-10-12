@@ -3,12 +3,17 @@
         font-size: 1.05rem;
     }
     
-    nav ul {
+    .navigation {
         display: flex;
     }
 
-	nav ul li {
+	.navigation li {
+        display: block;
         flex: 1 1 100%;
+    }
+
+    .navigation li:first-child {
+        display: none;
     }
 
     main, footer {
