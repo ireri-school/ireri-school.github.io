@@ -1,0 +1,38 @@
+@media only screen and (min-width: 36em) {
+    
+    body {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    main {
+        max-width: 36em;
+        margin: 0 auto;
+    }
+
+    .forecast {
+        display: block;
+        text-align: center;
+    }
+
+    .forecast table {
+        margin: 0 auto;
+        border-collapse: collapse;
+        border: 1px solid black;
+    }
+
+    .forecast th {
+        background-color: var(--main-blue);
+        padding: 8px;
+        border: 1px solid black;
+    }
+
+    .forecast table td {
+        padding: 16px;
+        border: 1px solid black;
+    }
+    
+}

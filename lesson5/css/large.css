@@ -1,0 +1,27 @@
+@media only screen and (min-width: 59em) {
+    body {
+        font-size: 1.05rem;
+    }
+    
+    .navigation {
+        display: flex;
+    }
+
+	.navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    main, footer {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+    footer {
+        margin-top: 2em;
+    }
+}
