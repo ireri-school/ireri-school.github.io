@@ -16,12 +16,37 @@
         display: none;
     }
 
-    main, footer {
+    main {
         max-width: 960px;
         margin: 0 auto;
     }
 
-    footer {
-        margin-top: 2em;
+    article img {
+        max-width: 40%;
     }
+
+    .contact-info {
+        padding: 2.5rem;
+        font-size: 1.3rem;
+        margin: 0;
+    }
+
+    .contact-info img.map {
+        grid-row: 1 / 4;
+    }
+
+    #address, #contact-methods {
+        justify-self: center;
+        align-self: center;
+    }
+
+    .social-media {
+        grid-column: 2;
+    }
+
+    .social-icons {
+        width: 50px;
+        height: 50px;
+    }
+
 }

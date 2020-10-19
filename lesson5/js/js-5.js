@@ -12,6 +12,12 @@ let dayOfWeek = days[now.getDay()];
 let today = String(dayOfWeek) + ", " + dayOfMonth + " " + month + " " + year;
 document.getElementsByClassName("today")[0].innerHTML = today;
 
+//banner
+if (dayOfWeek == "Friday") {
+    document.getElementById("announcement").style.display = "block"
+    document.getElementById("myHeader").style.marginTop = "3em"
+}
+
 //toggling the menu
 const hamButton = document.querySelector(".toggle");
 const mainNav = document.querySelector(".navigation");
