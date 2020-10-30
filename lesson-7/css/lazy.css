@@ -1,0 +1,25 @@
+body {
+    background-color: peru;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1.5em;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+picture {
+    justify-self: center;
+}
+
+picture img {
+    box-shadow: 2px 2px 15px black;
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+picture img[data-src] {
+    filter: blur(0.2em);
+}
