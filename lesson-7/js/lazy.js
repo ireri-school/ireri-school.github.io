@@ -8,7 +8,7 @@ const loadImages = (image) => {
 };
 
 const options = {
-    threshold: 0.4,
+    threshold: 0,
     rootMargin: "0px 0px 50px 0px"
 };
 
