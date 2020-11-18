@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@300;700&display=swap');
+
+body {
+    background-color: white;
+    font-family: 'BenchNine', Arial, sans-serif;
+    color: black;
+    font-size: 1.3rem;
+    max-width: 32.5em;
+    margin: 0 auto;
+}
+header {
+    background-color: rgb(42, 78, 102);
+    color: white;
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 1.5em;
+    padding: .3em;
+    text-align: center;
+    margin: 0;
+}
+.portrait {
+    width: auto;
+    height: 180px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+main {
+    margin: 1.5em;
+}
+.course-title {
+    margin-bottom: 0;
+}
+hr {
+    color: rgb(47, 65, 88);
+}
+ul li a {
+    color: blue;
+}
+footer {
+    background-color: rgb(42, 78, 102);
+    color: white;
+    padding-top: .3em;
+    padding-bottom: .3em;
+    text-align: center;
+    margin: 0;
+}
+footer p {
+    margin: 0;
+}
+.byui-link {
+    color: white;
+}
+a:hover {
+    color: plum;
+}
+.last-update, #last-modified {
+    color: rgb(251, 253, 125);
+    font-size: 0.9em;
+    margin: 0;
+}

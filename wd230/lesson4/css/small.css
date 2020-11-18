@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,900;1,400;1,900&display=swap');
+
+:root {
+    --main-blue: #33e0ff;
+    --secondary-blue: #100052;
+    --accent-color: #cfd1dd;
+
+    --font: 'Raleway', sans-serif;
+}
+
+body {
+    font-family: var(--font);
+    font-size: .9rem;
+}
+
+header, footer {
+    background-color: var(--main-blue);
+    padding: 1rem;
+    box-shadow: 0 2px 15px gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+.top-heading {
+    margin-left: 1.5rem;
+}
+
+.logo-img {
+    max-width: 100px;
+    box-shadow: 0 2px 15px gray;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: var(--main-blue);
+}
+
+nav {
+    background-color: var(--secondary-blue);
+    text-align: center;
+    box-shadow: 0 2px 15px gray;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+    overflow: hidden;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+nav ul li a {
+    display: block;
+	color: white;
+	text-align: center;
+	padding: 0.85rem;
+	text-decoration: none;
+    font-size: 1rem;
+}
+
+nav a:visited {
+    color: white;
+}
+
+.active, .active:visited {
+    color: var(--main-blue);
+}
+
+nav a:hover, .active:hover {
+	background-color: var(--accent-color);
+	color: var(--secondary-blue);
+}
+
+.responsive li {
+    display: block;
+}
+
+main {
+    padding: 0 1em;
+}
+
+div.placeholder {
+    padding: 15px;
+    border: 1px dashed black;
+    background-color: var(--accent-color);
+    font-style: italic;
+    display: block;
+    margin: 10px auto;
+}
+
+footer {
+    flex: 0 1 100%;
+    margin-top: 2em;
+    flex-flow: column;
+}
+
+footer p {
+    margin: 0.3em;
+    text-align: center;
+}
+
+.byui-link, .byui-link:visited, .byui-link:hover {
+    color: black;
+}
+
+.today {
+    font-style: italic;
+}
